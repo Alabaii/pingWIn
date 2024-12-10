@@ -2,6 +2,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from io import BytesIO
+# from app.config import Settings
 
 # Функция для проверки доступности сайта
 def check_website_availability(url: str) -> bool:
